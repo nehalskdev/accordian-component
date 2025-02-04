@@ -70,3 +70,25 @@ body {
 .open .tit {
   color: #087f5b;
 }
+
+@media (max-width: 480px) {
+  .item {
+    padding: 10px;
+  }
+
+  .number {
+    font-size: 14px;
+  }
+
+  .title {
+    font-size: 13px;
+  }
+
+  .icon {
+    font-size: 16px;
+  }
+
+  .content-box {
+    font-size: 12px;
+  }
+}
