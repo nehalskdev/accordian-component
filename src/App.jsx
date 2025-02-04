@@ -16,6 +16,30 @@ const faqs = [
   },
 ];
 
-function App() {}
+export default function App() {
+  return (
+    <div>
+      <Accordion data={faqs} />
+    </div>
+  );
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 export default App;
